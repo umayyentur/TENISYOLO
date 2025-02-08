@@ -75,37 +75,6 @@ Court Detection Model: Kyp_model.pth
 If any model is missing or a .partial file is present, re-download the model for proper execution.
 
 
-
-### File Structure
-The project’s file structure is organized as follows:
-
-.
-├── Analysis/
-├── constants/
-├── court_line_detector/
-├── input_vid/
-│   ├── input_video.mp4
-├── main.py
-├── mini_court/
-├── models/
-│   ├── last.pt          # Ball detection model
-│   ├── Kyp_model.pth    # Court detection model
-│   ├── yolov8x.pt       # Player detection model
-├── output_vid/
-│   ├── output_vid.avi
-├── stubs/
-│   ├── player_detections.pkl
-│   ├── ball_detections.pkl
-├── Trackers/
-│   ├── PlayerTracker.py
-│   ├── BallTracker.py
-├── training/
-├── utils/
-├── yolo.py
-└── ...
-
-
-
 ### Notes
 
 *   Model Availability: Check that yolov8x.pt, last.pt, and Kyp_model.pth are correctly placed.
