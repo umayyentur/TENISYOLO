@@ -6,10 +6,10 @@
 
 
 ## Before
-![Before](/TENISYOLO/input_vid/image.png)
+![Before](/input_vid/image.png)
 
 ## After
-![After](TENISYOLO/output_vid/after.png)
+![After](output_vid/after.png)
 
 ## FEATURES  
 # - Player and Ball Detection: Uses YOLO-based object detection models.
